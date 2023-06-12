@@ -74,6 +74,17 @@ body {
   top: 50%;
 }
 
+@media (min-width: 576px) {
+  .carousel-inner .caption {
+
+
+  }
+    .carousel-inner .caption h1 {
+
+
+  }
+}
+
 .carousel-indicators [data-bs-target] {
   height: 8px;
   width: 8px;
@@ -268,10 +279,8 @@ Why Choose Us */
 /* End contact */
 /* Start footer */
 .footer {
-  height: 472px;
 }
-.footer .info-footer svg{
-
+.footer .info-footer svg {
   width: 15px;
   height: 15px;
   border-radius: 50%;
